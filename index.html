@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <main>
+    <section id="first-sec">
+      <!-- embeding an external image -->
+      <img src="https://images.pexels.com/photos/1128678/pexels-photo-1128678.jpeg?auto=compress&cs=tinysrgb&w=600"  alt ="fruit salad" style="width:300px; height:170px;float:right">
+      <h3>Fruit Salad Ingridients</h3>
+      <!-- creating an orderd roman numeral llist -->
+      <ol type="i">
+        <li>Mangoes</li>
+        <li>Oranges</li>
+        <li>Grapes</li>
+        <li>Apples</li>
+        <li>Strawberries</li>
+        <li>blueberries</li>
+        <li>blackberries</li> 
+      </ol>
+    </section>
+    <!-- creating a contact table -->
+    <section id="contact_table">
+      <h2>My Contact Table</h2>
+      <table border="2">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Address</th>
+            <th>Mobile</th>
+          </tr>
+        <tbody>
+          <tr>
+            <td>Thande</td>
+            <td>thande@gmail.com</td>
+            <td>1127 JHB</td>
+            <td>1234567890</td>
+          </tr>
+          <tr>
+            <td>Thato</td>
+            <td>thatoe@gmail.com</td>
+            <td>1128 JHB</td>
+            <td>0234567891</td>
+          </tr>
+          <tr>
+            <td>Thando</td>
+            <td>thando@gmail.com</td>
+            <td>1129 JHB</td>
+            <td>2345678901</td>
+          </tr>
+        </tbody>
+        </thead>
+      </table>
+    </section>
+    <!-- creating a registration form -->
+    <section id="registration-form">
+      <h1>Register With Us!!</h1>
+      <form id="myForm" action="/" method="POST">
+        <p><label for ='user'>First Name:</label>
+          <input type="text" id="user" name="fname" placeholder="Enter your name"  required></p>
+          <p><label for ='email'>Email:</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email address"  required></p>
+          <p><label for ='pass'>Password:</label>
+          <input type="password" id="pass" name="password" placeholder="Enter your password "  required></p>
+          <p><label for ='date'>Date:</label>
+          <input type="date" id="date" name="date" placeholder="Enter date"  required></p>
+          <label>Choose Your Gender:<label>
+          <input type="radio" id="gender" name= 'gender' value='female'>
+          <label for="gender">Female</label>
+          <input type="radio" id="gender" name= 'gender' value='male'>
+          <label for="gender">Male</label><br><br>
+          <label>Choose Your Specialization:</label>
+          <select name="specility">
+            <option value="web">Web Development</option>
+            <option value="analyst">Data analyst</option>
+            <option value="designer">Product Designer</option>
+            <option value="data"> ML and Data Science</option>
+          </select><br><br>
+          <label>Select Courses:</label>
+          <input type="checkbox" id="js" name= 'course' value='javascript'>
+          <label for="js">JavaScript</label>
+          <input type="checkbox" id="py" name= 'course' value='python'>
+          <label for="py">Python</label>
+          <input type="checkbox" id="java" name= 'course' value='java'>
+          <label for="js">Java</label>
+          <input type="checkbox" id="sql" name= 'course' value='sql'>
+          <label for="py">SQL</label>
+        </form>
+      
+    </section>
+  </main>
+    
+
+  
+</body>
+</html>
